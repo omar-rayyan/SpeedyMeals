@@ -64,7 +64,7 @@ const MealList = () => {
                             type="text"
                         />
                     </Link>
-                    <Link to={`/meals/${record._id}/upd                                icon={<SaveOutlined />}ate`}>
+                    <Link to={`/meals/${record._id}/update`}>
                         <Button 
                             icon={<EditOutlined />}
                             type="text"
