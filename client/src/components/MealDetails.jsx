@@ -42,7 +42,7 @@ const MealDetails = () => {
     }, [id]);
 
     const handleDelete = (mealId) => {
-        deletePlayer(mealId)
+        deleteMeal(mealId)
         navigate('/meals/list');
     };
 
